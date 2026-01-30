@@ -1,0 +1,21 @@
+- app with buttons for different functions on the pc
+ * button for mouse to move in a heart loop
+ * the icons on the desktop to create a heart shape and then return to its original place
+ * how change the wallpaper and return it to normal
+ * pymsgbox ?
+
+- Keyboard Listening (Hotkeys, Key Presses)
+ *keyboard (easy, powerful)
+ *pynput (more cross-platform friendly)
+
+
+
+ ------
+
+ ex. 1
+ Custom Popup Tool
+ app for reminders: 
+ - text box for a name of the reminder
+ - text box for the description of the reminder
+ - a number box for how mins / secs to remind you
+
