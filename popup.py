@@ -9,10 +9,10 @@ frm.grid() # parent widget, geometry widget, when created widget, they are not a
 
 ttk.Label(frm, text="hii").grid(row=0, column=0) # these are widgets - python objects
 
-ttk.Entry(frm).grid(row=1, column=0) #single-line text entry
+entry = ttk.Entry(frm).grid(row=1, column=0) #single-line text entry
+ttk.Button(frm, text="upload", command=print(entry)).grid(row=2, column=0)
 
-
-ttk.Button(frm, text="bye", command=root.destroy, cursor="arrow", width=20).grid(row=2, column=0) # hierarchy, the root acts as a parent and must be passed to its children widgtes
+ttk.Button(frm, text="bye", command=root.destroy, cursor="arrow", width=20).grid(row=2, column=1) # hierarchy, the root acts as a parent and must be passed to its children widgtes
 
 
 # print(dir(frm))
